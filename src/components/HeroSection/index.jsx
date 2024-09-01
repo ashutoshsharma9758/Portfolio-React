@@ -54,9 +54,11 @@ display-flex;
 justify-content:end;
 gap:12px;
 @media screen and (max-width:640px){
+margin-left:80px;
+margin-bottom:40px;
 order:1;
 width:
-margin-bottom:30px;
+margin-bottom:80px;
 align-items:center;
 };
 `
@@ -144,7 +146,8 @@ margin-left:150px;
 border:2px solid ${({theme})=>theme.primary};
 box-shadow:4px 8px 16px ${({theme})=>theme.primary};
 @media screen and (max-width:640px){
-margin-left:0px !important;
+margin-left: auto;
+margin-right:auto;
 max-width:300px;
 max-height:300px
 }
